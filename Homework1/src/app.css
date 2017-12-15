@@ -1,0 +1,39 @@
+body{
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+header{
+  padding: 20px;
+  background: #eee;
+}
+
+
+.myList{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.myList__Item{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+.myList__Item.done{
+  text-decoration: line-through;
+  color: red;
+}
+
+.MyInput{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 20px;
+}
+
+.NotFind{
+  box-sizing: border-box;
+  padding: 8px 20px;
+  background: #F4EED7;
+}
